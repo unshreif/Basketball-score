@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+<head>
+    <title>score</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <div class="side1">
+    <div id="home">
+        <h2>Home</h2>
+        <input name="home" id="homeScore" value="" placeholder="0" disabled>
+        <button onclick="increase1()">+1</button>
+        <button onclick="increase2()">+2</button>
+        <button onclick="increase3()">+3</button>
+    </div>
+    </div>
+    <div class="side1">
+        <div id="guest">
+            <h2>Guest</h2>
+            <input name="guest" id="Guestscore" placeholder="0" value="" disabled>
+            <button onclick="increase12()">+1</button>
+            <button onclick="increase22()">+2</button>
+            <button onclick="increase32()">+3</button>
+        </div>
+</div>
+</div>
+<p id="result"></p>
+<button onclick="reset()">Reset</button>
+</body>
+</html>
