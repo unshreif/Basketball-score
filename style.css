@@ -51,8 +51,41 @@ h2{
     width: 2vw;
     color: white;
 }
+input{
+    border-radius: 5vw;
+}
 input::placeholder{
     color: red;
     font-family: 'Cursed Timer ULiL', sans-serif;
 }
+@media screen and (max-width: 460px) {
 
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 25vw;
+    }
+    .buttons{
+        display: flex;
+        flex-direction: row;
+    }
+    button{
+        padding: 10px;
+        width: 20vw;
+        margin: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+        background-color:midnightblue;
+        color: white;
+        border: dotted 1px white;
+        cursor: pointer;
+        font-family: 'Cursed Timer ULiL', sans-serif;
+    }
+    .reset{
+        width: 60vw;
+    }
+    input{
+        width:10vw;
+        border-radius: 2vw;
+    }
+}
